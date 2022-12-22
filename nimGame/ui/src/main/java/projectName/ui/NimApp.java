@@ -1,4 +1,4 @@
-package projectName.ui;
+package nimGame.ui;
 
 import java.io.IOException;
 import javafx.application.Application;
@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 /**
  * JavaFX App.
  */
-public class ProjectApp extends Application {
+public class NimApp extends Application {
 
     /**
      * The app will be setup and be ready to be launched.
@@ -18,10 +18,10 @@ public class ProjectApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(this.getClass()
-                                                   .getResource("Dummy.fxml"));
+                                                   .getResource("NimGame.fxml"));
         Parent parent = fxmlLoader.load();
         stage.setScene(new Scene(parent));
-        stage.setTitle("Dummy");
+        stage.setTitle("NIM");
         stage.show();
     }
 

@@ -1,4 +1,4 @@
-package projectName.core;
+package nimGame.core;
 
 public class Dummy {
     

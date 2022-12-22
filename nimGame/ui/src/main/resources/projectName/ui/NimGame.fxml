@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="604.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nim.NimController2">
+   <children>
+      <Button fx:id="stick1" layoutX="67.0" layoutY="66.0" mnemonicParsing="false" onAction="#handleRemoveStick1" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick22" layoutX="135.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleRemoveStick22" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick21" layoutX="67.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleRemoveStick21" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick23" layoutX="200.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleRemoveStick23" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick33" layoutX="198.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleRemoveStick33" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick32" layoutX="130.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleRemoveStick32" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick34" layoutX="263.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleRemoveStick34" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick31" layoutX="67.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleRemoveStick31" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick35" layoutX="323.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleRemoveStick35" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick44" layoutX="266.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleRemoveStick44" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick43" layoutX="198.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleRemoveStick43" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick45" layoutX="331.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleRemoveStick45" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick42" layoutX="135.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleRemoveStick42" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick46" layoutX="391.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleRemoveStick46" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick47" layoutX="449.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleRemoveStick47" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="stick41" layoutX="67.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleRemoveStick41" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
+      <Button fx:id="restart" layoutX="191.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleRestart" prefHeight="63.0" prefWidth="203.0" text="Restart" visible="false">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <TextField fx:id="spiller1" layoutX="199.0" layoutY="111.0" />
+      <Label fx:id="tekst1" layoutX="143.0" layoutY="116.0" text="Spiller 1:" textFill="WHITE" />
+      <Label fx:id="overskrift" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="165.0" layoutY="42.0" prefHeight="48.0" prefWidth="218.0" text="Hvem skal spille?" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="spiller2" layoutX="199.0" layoutY="155.0" />
+      <Label fx:id="tekst2" layoutX="143.0" layoutY="160.0" text="Spiller 2:" textFill="WHITE" />
+      <Button fx:id="start" layoutX="178.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="63.0" prefWidth="196.0" text="Start">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button fx:id="confirm" layoutX="367.0" layoutY="203.0" mnemonicParsing="false" onAction="#handleConfirm" prefHeight="63.0" prefWidth="190.0" text="FERDIG" visible="false">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Label fx:id="sinTur" layoutX="404.0" layoutY="42.0" prefHeight="48.0" prefWidth="126.0" text="sin tur!" textFill="WHITE" visible="false">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
