@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="604.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nimGame.ui.NimController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="604.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nimGame.ui.NimController">
    <children>
       <Button fx:id="stick1" layoutX="67.0" layoutY="66.0" mnemonicParsing="false" onAction="#handleRemoveStick1" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
       <Button fx:id="stick22" layoutX="135.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleRemoveStick22" prefHeight="89.0" prefWidth="26.0" style="-fx-background-color: brown;" visible="false" />
@@ -30,15 +30,15 @@
          </font>
       </Button>
       <TextField fx:id="spiller1" layoutX="199.0" layoutY="111.0" />
-      <Label fx:id="tekst1" layoutX="143.0" layoutY="116.0" text="Spiller 1:" textFill="WHITE" />
-      <Label fx:id="overskrift" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="165.0" layoutY="42.0" prefHeight="48.0" prefWidth="218.0" text="Hvem skal spille?" textFill="WHITE">
+      <Label fx:id="tekst1" layoutX="143.0" layoutY="116.0" text="Spiller 1:" />
+      <Label fx:id="overskrift" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="165.0" layoutY="42.0" prefHeight="48.0" prefWidth="218.0" text="Hvem skal spille?">
          <font>
             <Font size="30.0" />
          </font>
       </Label>
       <TextField fx:id="spiller2" layoutX="199.0" layoutY="155.0" />
-      <Label fx:id="tekst2" layoutX="143.0" layoutY="160.0" text="Spiller 2:" textFill="WHITE" />
-      <Button fx:id="start" layoutX="178.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="63.0" prefWidth="196.0" text="Start">
+      <Label fx:id="tekst2" layoutX="143.0" layoutY="160.0" text="Spiller 2:" />
+      <Button id="sale" fx:id="start" layoutX="178.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="63.0" prefWidth="196.0" stylesheets="@stylesheet.css" text="Start">
          <font>
             <Font size="37.0" />
          </font>
