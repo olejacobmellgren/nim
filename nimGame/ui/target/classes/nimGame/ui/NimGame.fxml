@@ -48,7 +48,7 @@
             <Font size="32.0" />
          </font>
       </Button>
-      <Label fx:id="sinTur" layoutX="404.0" layoutY="42.0" prefHeight="48.0" prefWidth="126.0" text="sin tur!" textFill="WHITE" visible="false">
+      <Label fx:id="sinTur" layoutX="404.0" layoutY="42.0" prefHeight="48.0" prefWidth="126.0" text="sin tur!" visible="false">
          <font>
             <Font size="30.0" />
          </font>
